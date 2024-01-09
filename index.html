@@ -2,17 +2,17 @@
 <html>
 <head>
     <title>Advanced Text Encoder/Decoder</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
 
     <div class="container">
-        <h1>Text Encoder/Decoder</h1>
+        <h1 class="fade-in-box">Text Encoder/Decoder</h1>
         <br>
-        <textarea id="inputText" placeholder="Enter text here or upload a .txt file..."></textarea>
+        <textarea class="fade-in-box"id="inputText" placeholder="Enter text here or upload a .txt file..."></textarea>
         <br>
-        <select id="method" onchange="methodChanged()">
+        <select class="fade-in-box"id="method" onchange="methodChanged()">
             <option value="base64">Base64</option>
             <option value="url">URL Encoding</option>
             <option value="html">HTML Encoding</option>
@@ -20,12 +20,12 @@
             <option value="ascii">ASCII Encoding</option>
             <option value="shift">Shift Cipher</option>
         </select>
-        <div id="additionalOptions"></div>
+        <div class="fade-in-box"id="additionalOptions"></div>
         <br>
-        <button id="encodeButton">Encode</button>
-        <button id="decodeButton">Decode</button>
+        <button class="fade-in-box"id="encodeButton">Encode</button>
+        <button class="fade-in-box"id="decodeButton">Decode</button>
         <br>
-        <textarea id="outputText" placeholder="Result..."></textarea>
+        <textarea class="fade-in-box"id="outputText" placeholder="Result..."></textarea>
     </div>
     <script src="script.js"></script>
 </body>
